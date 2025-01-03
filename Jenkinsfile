@@ -5,7 +5,7 @@ pipeline {
         IMAGE2 = 'app2'
         TAG = "v1"
         DOCKER_USER = "mjid6"
-
+        DOCKER_PASS ="dckr_pat_knjjAjvRy6Qsy1arF36wVnB2Wug"
     }
     stages {
         stage("clone the project"){
